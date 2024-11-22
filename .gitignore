@@ -1,0 +1,12 @@
+# Latex outputs
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.log
+*.bbl
+*.blg
+*.out
+*.swp
+
+template_cv
