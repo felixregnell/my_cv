@@ -14,6 +14,7 @@
 \usepackage{titlesec} % provides an interface to sectioning commands i.e. custom elements
 
 \usepackage{color} % provides both foreground and background color management
+\usepackage{xcolor}
 
 \usepackage{enumitem} % provides control over enumerate, itemize and description
 
@@ -72,9 +73,10 @@
 % before-code is the code to be executed before
 % after-code is the code to be executed after
 
+\definecolor{myred}{HTML}{FF5733}
 \titleformat{\section}
   {\scshape\large}{}
-    {0em}{\color{blue}\bf}[\color{black}\titlerule\vspace{0pt}]
+    {0em}{\color{myred}\bf}[\color{black}\titlerule\vspace{0pt}]
 %-------------------------------------
 
 %--------REDEFINITIONS----------------
